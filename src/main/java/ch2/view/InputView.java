@@ -20,9 +20,10 @@ public class InputView {
         String[] pointStrArr = userInput.split(SEPERATOR);
 
         List<Point> points = new ArrayList<>();
-        Arrays.stream(pointStrArr)
-            .map(InputView::generatePoint)
-            .map(point -> points.add(point));
+
+        for(String pointStr : pointStrArr) {
+            points.add(generatePoint(pointStr));
+        }
 
         return points;
     }
