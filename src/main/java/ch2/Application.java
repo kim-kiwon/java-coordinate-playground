@@ -1,9 +1,8 @@
 package ch2;
 
+import ch2.coordination.Point;
+import ch2.view.InputView;
 import java.util.List;
-import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class Application {
     private static final InputView inputView = new InputView();

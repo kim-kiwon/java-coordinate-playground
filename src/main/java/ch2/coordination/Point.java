@@ -1,4 +1,4 @@
-package ch2;
+package ch2.coordination;
 
 public class Point {
     private int x;

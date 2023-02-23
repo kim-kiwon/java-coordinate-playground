@@ -1,5 +1,6 @@
-package ch2;
+package ch2.view;
 
+import ch2.coordination.Point;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
